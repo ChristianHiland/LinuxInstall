@@ -1,0 +1,8 @@
+{
+    "Whole": {
+        "Code": {
+            "Command": "snap install code --classic",
+            "DiskSize": "891289600"
+        }
+    }
+}
