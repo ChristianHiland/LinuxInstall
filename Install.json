@@ -1,8 +1,24 @@
 {
     "Whole": {
         "Code": {
+            "InstallOP": "Needed",
             "Command": "snap install code --classic",
-            "DiskSize": "891289600"
+            "DiskSize": 850,
+            "OtherPack": {
+                "None": "None"
+            }
+        },
+        "Scrcpy": {
+            "InstallOP": "Optional",
+            "Command": "snap install scrcpy",
+            "DiskSize": 387,
+            "OtherPack": {
+                "ADB": {
+                    "InstallOP": "Needed",
+                    "Command": "sudo apt install adb -y",
+                    "DiskSize": 3.143
+                }
+            }
         }
     }
 }
